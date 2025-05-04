@@ -27,6 +27,9 @@ void my_test3()
 	old_test3();
 }
 
+void (*old_test4)();
+void my_test4();
+
 int main()
 {
 	test();
